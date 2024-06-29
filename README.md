@@ -35,7 +35,7 @@ Current weather report mobile applications are heavily bundles with various func
 
 ### Software Design Patterns: 
   Four Patterns are used in the project, each one is explained with example of code provided. 
-  1. Singleton Pattern
+  1. **Singleton Pattern**
     This pattern ensures that a class has only one instance and provides a global point of access to it. In your project, the MongoDBHelper is effectively used as a singleton, though not explicitly implemented as one.
     example
   ```
@@ -49,7 +49,7 @@ Current weather report mobile applications are heavily bundles with various func
       MainPage = new NavigationPage(new LoginPage(_auth0Client, Database));
   }
   ```
-  2. Repository Pattern
+  2. **Repository Pattern**
   The MongoDBHelper class has the logic for accessing the MongoDB database, effectively acting as a repository. This pattern abstracts the data layer, making it easier to manage and test.
   ```
   public class MongoDBHelper
@@ -100,7 +100,7 @@ Current weather report mobile applications are heavily bundles with various func
       }
   }
   ```
-  3. Dependency Injection
+  3. **Dependency Injection**
   In the App class, Auth0Client and MongoDBHelper are injected into the constructors of other classes like LoginPage and WeatherPage
   ```
   public App(Auth0Client auth0Client, IMongoDatabase database)
@@ -112,7 +112,7 @@ Current weather report mobile applications are heavily bundles with various func
       MainPage = new NavigationPage(new LoginPage(_auth0Client, Database));
   }
   ```
-  4. MVVM
+  4. **MVVM**
   Like mentioned above, Model: Represents the data (e.g., UserRecord). View: Represents the UI (e.g., LoginPage.xaml).ViewModel: Contains the logic and data-binding
   ```
   public partial class LoginPage : ContentPage
@@ -124,4 +124,14 @@ Current weather report mobile applications are heavily bundles with various func
       }
   }
   ```
+
+  ### Seperation of Concerns
+  All code and files are organized in different folders based on its functionality and purpose.
+
+  ### Database Integration
+  The application integrates with the online MongoDB Atlas database, four CRUD opertions are included:
+    **Create**: SaveUserAsync
+    **Read**: GetUserByEmailAsync
+    **Update**: UpdateUserAsync
+    **Delete**: DeleteUserAsync
     
