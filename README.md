@@ -129,7 +129,6 @@ Current weather report mobile applications are heavily bundles with various func
   All code and files are organized in different folders based on its functionality and purpose.
 
   ### Database Integration
-  
   The application integrates with the online MongoDB Atlas database, four CRUD opertions are included:
     **Create**: SaveUserAsync
     **Read**: GetUserByEmailAsync
@@ -138,11 +137,10 @@ Current weather report mobile applications are heavily bundles with various func
 
 
   ### Cloud Integration
-    Three external online sources are used
-    
-    **MongoDB** : Online API to access the database 4 endpoints(Create/Read/Update/Delete)
-    **Auth0** : online third party authentication-authorisation 1 endpoint
-    **OpenWeather** : online API to retrieve realtime weather information 1 endpoint
+  Three external online sources are used
+      **MongoDB** : Online API to access the database 4 endpoints(Create/Read/Update/Delete)
+      **Auth0** : online third party authentication-authorisation 1 endpoint
+      **OpenWeather** : online API to retrieve realtime weather information 1 endpoint
 
     
     
