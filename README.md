@@ -28,7 +28,7 @@ Current weather report mobile applications are heavily bundles with various func
 
 
 ### Version Control Summary:
-    2 branches, 1 commit, 1 merge
+    2 branches, 10 commit, 1 merge
 
 ### MVVM Integration
   The login page is implemented using MVVM deisgn.
@@ -137,7 +137,12 @@ Current weather report mobile applications are heavily bundles with various func
     **Delete**: DeleteUserAsync
 
 
-
+  ### Cloud Integration
+    Three external online sources are used
+    
+    **MongoDB** : Online API to access the database 4 endpoints(Create/Read/Update/Delete)
+    **Auth0** : online third party authentication-authorisation 1 endpoint
+    **OpenWeather** : online API to retrieve realtime weather information 1 endpoint
 
     
     
