@@ -137,13 +137,7 @@ Current weather report mobile applications are heavily bundles with various func
     **Delete**: DeleteUserAsync
 
 
-  ### Cloud Integration
-  
-    Three external online sources are used
-    
-    **MongoDB** : Online API to access the database 4 endpoints(Create/Read/Update/Delete)
-    **Auth0** : online third party authentication-authorisation 1 endpoint
-    **OpenWeather** : online API to retrieve realtime weather information 1 endpoint
+
 
     
     
