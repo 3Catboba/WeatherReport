@@ -1,4 +1,4 @@
-# WeatherReport
+# Weather Report
 
 ## Motivation/ Background
 
