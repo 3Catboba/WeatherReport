@@ -24,7 +24,7 @@ Current weather report mobile applications are heavily bundles with various func
         If users decide to not use the APP anymore, the APP also offers a feature to delete all their informations stored in the database to ensure maximum privacy.
 
 ### User Interfacing and Styling
-    [LINK]
+[Link to the video demo](https://youtu.be/QdEoMoWNtP8)
 
 
 ### Version Control Summary:
