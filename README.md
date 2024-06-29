@@ -34,7 +34,7 @@ Current weather report mobile applications are heavily bundles with various func
   The login page is implemented using MVVM deisgn.
 
 ### Software Design Patterns: 
-  Four Patterns are used in the project: 
+  Four Patterns are used in the project, each one is explained with example of code provided. 
   1. Singleton Pattern
     This pattern ensures that a class has only one instance and provides a global point of access to it. In your project, the MongoDBHelper is effectively used as a singleton, though not explicitly implemented as one.
     example
@@ -49,5 +49,79 @@ Current weather report mobile applications are heavily bundles with various func
       MainPage = new NavigationPage(new LoginPage(_auth0Client, Database));
   }
   ```
-
+  2. Repository Pattern
+  The MongoDBHelper class has the logic for accessing the MongoDB database, effectively acting as a repository. This pattern abstracts the data layer, making it easier to manage and test.
+  ```
+  public class MongoDBHelper
+  {
+      private readonly IMongoDatabase _database;
+  
+      public MongoDBHelper(IMongoDatabase database)
+      {
+          _database = database;
+      }
+  
+      public IMongoCollection<UserRecord> GetUsersCollection()
+      {
+          return _database.GetCollection<UserRecord>("Users");
+      }
+  
+      public async Task<int> SaveUserAsync(UserRecord user)
+      {
+          var collection = GetUsersCollection();
+          await collection.InsertOneAsync(user);
+          return 1;
+      }
+  
+      public async Task<UserRecord> GetUserByEmailAsync(string email)
+      {
+          var collection = GetUsersCollection();
+          var filter = Builders<UserRecord>.Filter.Eq("Email", email);
+          var user = await collection.Find(filter).FirstOrDefaultAsync();
+          return user;
+      }
+  
+      public async Task UpdateUserAsync(UserRecord user)
+      {
+          var collection = GetUsersCollection();
+          var filter = Builders<UserRecord>.Filter.Eq("Email", user.Email);
+          var update = Builders<UserRecord>.Update
+              .Set(u => u.Username, user.Username)
+              .Set(u => u.DefaultCity, user.DefaultCity)
+              .Set(u => u.BackgroundColor, user.BackgroundColor);
+          await collection.UpdateOneAsync(filter, update);
+      }
+  
+      public async Task DeleteUserAsync(string email)
+      {
+          var collection = GetUsersCollection();
+          var filter = Builders<UserRecord>.Filter.Eq("Email", email);
+          await collection.DeleteOneAsync(filter);
+      }
+  }
+  ```
+  3. Dependency Injection
+  In the App class, Auth0Client and MongoDBHelper are injected into the constructors of other classes like LoginPage and WeatherPage
+  ```
+  public App(Auth0Client auth0Client, IMongoDatabase database)
+  {
+      InitializeComponent();
+      Database = new DatabaseHelper(database);
+      _auth0Client = auth0Client;
+  
+      MainPage = new NavigationPage(new LoginPage(_auth0Client, Database));
+  }
+  ```
+  4. MVVM
+  Like mentioned above, Model: Represents the data (e.g., UserRecord). View: Represents the UI (e.g., LoginPage.xaml).ViewModel: Contains the logic and data-binding
+  ```
+  public partial class LoginPage : ContentPage
+  {
+      public LoginPage(Auth0Client auth0Client, MongoDBHelper mongoDBHelper)
+      {
+          InitializeComponent();
+          BindingContext = new LoginViewModel(auth0Client, mongoDBHelper);
+      }
+  }
+  ```
     
