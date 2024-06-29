@@ -1,0 +1,278 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LearningSystem\\LearningSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\weatherpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\weatherpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\accountpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\accountpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\database\\mongodbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\database\\mongodbhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\accountpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\accountpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\weatherpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\weatherpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\passwordresetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\passwordresetpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\signuppage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|d:\\learningsystem\\learningsystem\\learningsystem\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4CA71241-78AF-46E3-8D35-33F857B40143}|LearningSystem\\LearningSystem.csproj|solutionrelative:learningsystem\\signuppage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a975660a-81e4-4830-aa25-1b824c3bf732}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LearningSystem\\LoginPage.xaml",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\LoginPage.xaml",
+              "RelativeToolTip": "LearningSystem\\LoginPage.xaml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAswGgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T23:39:56.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\LoginViewModel.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\LoginViewModel.cs",
+              "RelativeToolTip": "LearningSystem\\LoginViewModel.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAwwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:38:26.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LearningSystem\\LoginPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:26:38.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\App.xaml.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\App.xaml.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\App.xaml.cs",
+              "RelativeToolTip": "LearningSystem\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:25:48.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MongoDBHelper.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\DataBase\\MongoDBHelper.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\DataBase\\MongoDBHelper.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\DataBase\\MongoDBHelper.cs",
+              "RelativeToolTip": "LearningSystem\\DataBase\\MongoDBHelper.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwD4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:22:41.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountPage.xaml.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\AccountPage.xaml.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\AccountPage.xaml.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\AccountPage.xaml.cs",
+              "RelativeToolTip": "LearningSystem\\AccountPage.xaml.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAwwFYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:22:23.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountPage.xaml",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\AccountPage.xaml",
+              "RelativeDocumentMoniker": "LearningSystem\\AccountPage.xaml",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\AccountPage.xaml",
+              "RelativeToolTip": "LearningSystem\\AccountPage.xaml",
+              "ViewState": "AQIAAEwAAAAAAAAAAAAcwFoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T23:22:02.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\MainPage.xaml.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\MainPage.xaml.cs",
+              "RelativeToolTip": "LearningSystem\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:09:21.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\MauiProgram.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\MauiProgram.cs",
+              "RelativeToolTip": "LearningSystem\\MauiProgram.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:09:16.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PasswordResetPage.xaml.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\PasswordResetPage.xaml.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\PasswordResetPage.xaml.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\PasswordResetPage.xaml.cs",
+              "RelativeToolTip": "LearningSystem\\PasswordResetPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:09:15.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SignupPage.xaml.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\SignupPage.xaml.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\SignupPage.xaml.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\SignupPage.xaml.cs",
+              "RelativeToolTip": "LearningSystem\\SignupPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:09:08.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SignupPage.xaml",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\SignupPage.xaml",
+              "RelativeDocumentMoniker": "LearningSystem\\SignupPage.xaml",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\SignupPage.xaml",
+              "RelativeToolTip": "LearningSystem\\SignupPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T23:09:01.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherPage.xaml.cs",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\WeatherPage.xaml.cs",
+              "RelativeDocumentMoniker": "LearningSystem\\WeatherPage.xaml.cs",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\WeatherPage.xaml.cs",
+              "RelativeToolTip": "LearningSystem\\WeatherPage.xaml.cs",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAwwJgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T23:07:35.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeatherPage.xaml",
+              "DocumentMoniker": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\WeatherPage.xaml",
+              "RelativeDocumentMoniker": "LearningSystem\\WeatherPage.xaml",
+              "ToolTip": "D:\\LearningSystem\\LearningSystem\\LearningSystem\\WeatherPage.xaml",
+              "RelativeToolTip": "LearningSystem\\WeatherPage.xaml",
+              "ViewState": "AQIAABwAAAAAAAAAAAAvwCsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-28T23:07:31.205Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LearningSystem.SignupPage"
+             Title="Sign Up">
+
+    <ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#4158D0" Offset="0.0" />
+            <GradientStop Color="#C850C0" Offset="0.46" />
+            <GradientStop Color="#FFCC70" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <Grid Padding="30" RowSpacing="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Image Grid.Row="0" 
+                   Source="signup_icon.png" 
+                   HeightRequest="120" 
+                   WidthRequest="120" 
+                   HorizontalOptions="Center" 
+                   Margin="0,50,0,0"/>
+
+            <VerticalStackLayout Grid.Row="1" Spacing="20" VerticalOptions="Center">
+                <Label Text="Create Account" 
+                       FontSize="36" 
+                       TextColor="White" 
+                       HorizontalOptions="Center" 
+                       FontAttributes="Bold"/>
+
+                <Frame CornerRadius="30" 
+                       Padding="0" 
+                       IsClippedToBounds="True" 
+                       BorderColor="Transparent" 
+                       BackgroundColor="#80FFFFFF">
+                    <Entry x:Name="UsernameEntry"
+                           Placeholder="Full Name" 
+                           PlaceholderColor="#80000000" 
+                           TextColor="Black" 
+                           Margin="20,0" 
+                           VerticalOptions="Center"/>
+                </Frame>
+
+                <Frame CornerRadius="30" 
+                       Padding="0" 
+                       IsClippedToBounds="True" 
+                       BorderColor="Transparent" 
+                       BackgroundColor="#80FFFFFF">
+                    <Entry x:Name="EmailEntry"
+                           Placeholder="Email" 
+                           PlaceholderColor="#80000000" 
+                           TextColor="Black" 
+                           Keyboard="Email"
+                           Margin="20,0" 
+                           VerticalOptions="Center"/>
+                </Frame>
+
+                <Frame CornerRadius="30" 
+                       Padding="0" 
+                       IsClippedToBounds="True" 
+                       BorderColor="Transparent" 
+                       BackgroundColor="#80FFFFFF">
+                    <Entry x:Name="PasswordEntry"
+                           Placeholder="Password" 
+                           PlaceholderColor="#80000000" 
+                           TextColor="Black" 
+                           IsPassword="True" 
+                           Margin="20,0" 
+                           VerticalOptions="Center"/>
+                </Frame>
+
+                <Frame CornerRadius="30" 
+                       Padding="0" 
+                       IsClippedToBounds="True" 
+                       BorderColor="Transparent" 
+                       BackgroundColor="#80FFFFFF">
+                    <Entry x:Name="ConfirmPasswordEntry"
+                           Placeholder="Confirm Password" 
+                           PlaceholderColor="#80000000" 
+                           TextColor="Black" 
+                           IsPassword="True" 
+                           Margin="20,0" 
+                           VerticalOptions="Center"/>
+                </Frame>
+
+                <Button Text="Sign Up" 
+                        CornerRadius="30" 
+                        HeightRequest="50" 
+                        FontAttributes="Bold" 
+                        FontSize="18" 
+                        BackgroundColor="#7B2CBF" 
+                        TextColor="White"
+                        Clicked="OnSignUpClicked"/>
+            </VerticalStackLayout>
+
+            <Label Grid.Row="2" 
+                   Text="Already have an account? Login" 
+                   TextColor="White" 
+                   HorizontalOptions="Center" 
+                   VerticalOptions="End" 
+                   Margin="0,0,0,20">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnLoginTapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </Grid>
+    </ScrollView>
+</ContentPage>
