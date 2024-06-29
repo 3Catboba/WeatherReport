@@ -28,7 +28,7 @@ Current weather report mobile applications are heavily bundles with various func
 
 
 ### Version Control Summary:
-    2 branches, 10 commit, 1 merge
+2 branches, 10 commit, 1 merge
     [repo link](https://github.com/3Catboba/WeatherReport/tree/main)
     
 ### MVVM Integration
